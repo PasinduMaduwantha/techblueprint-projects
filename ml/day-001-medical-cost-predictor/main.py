@@ -1,5 +1,5 @@
 """
-MLBlueprint — Day 001: Medical Insurance Cost Predictor
+TechBlueprint — Day 001: Medical Insurance Cost Predictor
 Dataset : Kaggle "Medical Cost Personal Datasets" (mirichoi0218/insurance)
 Model   : RandomForestRegressor (scikit-learn)
 Lesson  : Turning categorical text features into numbers & inspecting feature importance

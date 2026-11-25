@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M 64 0 L 0 0 0 64" fill="none" stroke="#E2E8F0" stroke-width="2"/>
+    </pattern>
+    <linearGradient id="chipGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#1D4ED8"/>
+    </linearGradient>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#1E3A8A" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <!-- Blueprint Grid Canvas -->
+  <rect width="1024" height="1024" fill="#F8FAFC"/>
+  <rect width="1024" height="1024" fill="url(#grid)"/>
+
+  <!-- Subtle Figma Blueprint Frame with 4 Corner Handles -->
+  <rect x="164" y="164" width="696" height="696" fill="none" stroke="#93C5FD" stroke-width="4" stroke-dasharray="14 12"/>
+  <rect x="150" y="150" width="28" height="28" rx="4" fill="#FFFFFF" stroke="#2563EB" stroke-width="5"/>
+  <rect x="846" y="150" width="28" height="28" rx="4" fill="#FFFFFF" stroke="#2563EB" stroke-width="5"/>
+  <rect x="150" y="846" width="28" height="28" rx="4" fill="#FFFFFF" stroke="#2563EB" stroke-width="5"/>
+  <rect x="846" y="846" width="28" height="28" rx="4" fill="#FFFFFF" stroke="#2563EB" stroke-width="5"/>
+
+  <!-- Microchip Pins (Arduino / Raspberry Pi / Hardware) -->
+  <g stroke="#2563EB" stroke-width="24" stroke-linecap="round">
+    <!-- Top pins -->
+    <line x1="392" y1="210" x2="392" y2="296"/>
+    <line x1="512" y1="210" x2="512" y2="296"/>
+    <line x1="632" y1="210" x2="632" y2="296"/>
+    <!-- Bottom pins -->
+    <line x1="392" y1="728" x2="392" y2="814"/>
+    <line x1="512" y1="728" x2="512" y2="814"/>
+    <line x1="632" y1="728" x2="632" y2="814"/>
+    <!-- Left pins -->
+    <line x1="210" y1="392" x2="296" y2="392"/>
+    <line x1="210" y1="512" x2="296" y2="512"/>
+    <line x1="210" y1="632" x2="296" y2="632"/>
+    <!-- Right pins -->
+    <line x1="728" y1="392" x2="814" y2="392"/>
+    <line x1="728" y1="512" x2="814" y2="512"/>
+    <line x1="728" y1="632" x2="814" y2="632"/>
+  </g>
+
+  <!-- Central Microchip Body -->
+  <rect x="292" y="292" width="440" height="440" rx="76" fill="url(#chipGrad)" filter="url(#shadow)"/>
+  <rect x="322" y="322" width="380" height="380" rx="52" fill="none" stroke="rgba(255,255,255,0.22)" stroke-width="4"/>
+
+  <!-- Inner AI Neural / Circuit Constellation -->
+  <g stroke="#FFFFFF" stroke-width="14" stroke-linecap="round" stroke-opacity="0.92">
+    <line x1="512" y1="512" x2="404" y2="404"/>
+    <line x1="512" y1="512" x2="620" y2="404"/>
+    <line x1="512" y1="512" x2="404" y2="620"/>
+    <line x1="512" y1="512" x2="620" y2="620"/>
+    <line x1="404" y1="404" x2="620" y2="404" stroke-opacity="0.45" stroke-width="8"/>
+    <line x1="404" y1="620" x2="620" y2="620" stroke-opacity="0.45" stroke-width="8"/>
+    <line x1="404" y1="404" x2="404" y2="620" stroke-opacity="0.45" stroke-width="8"/>
+    <line x1="620" y1="404" x2="620" y2="620" stroke-opacity="0.45" stroke-width="8"/>
+  </g>
+  <!-- Center Core Node -->
+  <circle cx="512" cy="512" r="54" fill="#FFFFFF"/>
+  <circle cx="512" cy="512" r="24" fill="#2563EB"/>
+  <!-- Corner AI / Sensor Nodes -->
+  <circle cx="404" cy="404" r="28" fill="#FFFFFF"/>
+  <circle cx="620" cy="404" r="28" fill="#38BDF8"/>
+  <circle cx="404" cy="620" r="28" fill="#38BDF8"/>
+  <circle cx="620" cy="620" r="28" fill="#4ADE80"/>
+</svg>
