@@ -4,7 +4,7 @@
 
 # TechBlueprint (`@techblueprint`) — Daily Practical Tech Projects
 
-> *Our microchip-and-node blueprint logo unites hardware circuits and machine intelligence into clear, step-by-step tech blueprints anyone can build.*
+> *Our interlocking TB circuit-monogram unites precision hardware engineering and intelligent software into clear, step-by-step tech blueprints anyone can build.*
 
 Welcome to the official public repository for **TechBlueprint (`@techblueprint`)**!  
 **One practical project every day** — rotating across **AI & Machine Learning, Arduino/ESP32 Prototyping, Raspberry Pi & Dev Boards, and Tech Explainers** — plus **1 bigger end-to-end Monthly Capstone build** every month.
